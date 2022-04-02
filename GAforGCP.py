@@ -3,7 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
 
-with open("C:\\Users\\mehdi\\Desktop\\algo\\graphs\\gc_70_9_fit-1") as f:
+with open("./graphs/gc_70_9_fit-1") as f:
     df = pd.read_table(f, header=None, sep=" ")
     graph= {k:list(v) for k,v in df.groupby(0)[1]}
 print(graph)
@@ -59,6 +59,7 @@ def selection1(population):
     else:
         parent2 = tmpparent2
     return parent1,parent2
+
 def selection2(population):
     best1=[0]*lenchromo
     best2=[0]*lenchromo
@@ -68,6 +69,7 @@ def selection2(population):
         if (fitness(chromo)>fitness(best2) and fitness(best2)<fitness(best1)):
             best2=chromo
     return best1,best2
+
 def crossover(chromo1,chromo2):
     pos = random.randint(0,lenchromo)
     child=chromo1[:pos]+chromo2[pos:]
@@ -81,6 +83,7 @@ def run():
     child=mutate1(child)
     population.append(child)
     return child
+
 #L'action principale du programme
 i = 0
 optimal=[]
