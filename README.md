@@ -1,5 +1,7 @@
 # GraphColoringGA
 Graph Coloring optimization problem using Genetic Algorithm
+ <img width="508" alt="Screen Shot 2022-04-02 at 14 00 31" src="https://user-images.githubusercontent.com/36630821/161386643-8a82a17d-9c71-4bd2-b940-0e6dfd2487ab.png">
+
 ## Introduction 
 The graph coloring problem, a classical problem in graph theory. In its simplest form, the graph coloring problem consists in assigning a color to each of its vertices so that two vertices connected by an edge are of different color. We often seek to use the minimum number of colors, called chromatic number or we set a fixed number of colors and we seek the best coloring for a graph. The field of applications of graph coloring covers in particular the problem of frequency allocation in telecommunications, the design of electronic chips or the allocation of registers in compilation, Timetabling.
 
