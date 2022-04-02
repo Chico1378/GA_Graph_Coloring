@@ -1,5 +1,6 @@
 # GraphColoringGA
 Graph Coloring optimization problem using Genetic Algorithm
+
  <img width="508" alt="Screen Shot 2022-04-02 at 14 00 31" src="https://user-images.githubusercontent.com/36630821/161386643-8a82a17d-9c71-4bd2-b940-0e6dfd2487ab.png">
 
 ## Introduction 
